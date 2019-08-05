@@ -1,4 +1,5 @@
 #!/bin/bash
+mkdir dst || true
 cd src
 FILES=*
 for f in $FILES
